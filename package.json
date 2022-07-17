@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "node": "^17.7.2"
+  },
+  "scripts": {
+    "start": "node Server.js",
+    "client": "cd clean-tech && cd src && npm start",
+    "dev": "concurrently \"node Server.js\" \"npm run client\""
+  }
+}

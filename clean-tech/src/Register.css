@@ -1,0 +1,15 @@
+
+.Container{
+    background-color: rgb(202, 165, 0);
+    margin: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  
+   
+}
+
+
+.form-check{
+    margin-top: 37px;
+}
